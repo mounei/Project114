@@ -1,0 +1,26 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-danger:hover{
+    background-color: rgb(75, 72, 215);
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+    from{box-shadow: 15px 15px 60px pink ;}
+    to{box-shadow: 15px 15px 60px rgb(155, 64, 155) ;}
+}
+
+#text{
+color: black;
+}
+body{
+    background: rgb(232, 232, 138);
+}
